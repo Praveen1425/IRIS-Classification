@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRIS CLASSIFICATION</title>
+</head>
+<body>
+    <form action="/predict", method="POST">
+
+        <label for="">SepalLengthCm:    </label><br><br>
+        <input type="text", name = 'sepal_length'> <br><br>
+
+        <label for=""> SepalWidthCm:      </label><br><br>
+        <input type="text", name = 'sepal_width'><br><br>
+
+        <label for="">PetalLengthCm:    </label><br><br>
+        <input type="text",name = 'petal_length'><br><br>
+
+        <label for=""> PetalWidthCm:      </label><br><br>
+        <input type="text",name='petal_width'><br><br>
+
+        <label for="">Class:</label> {{result}} <br><br>
+        <input type="button" name="" id="", value="Predict">
+
+    </form>
+</body>
+</html>
